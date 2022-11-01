@@ -1,0 +1,31 @@
+body{
+    background-color: hsl(210, 60%, 98%) !important;
+}
+p:not(.tag){
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+}
+.spa{
+    background-color: hsl(219, 85%, 26%) !important;
+}
+
+.spa-1{
+    color: hsl(219, 85%, 26%) !important ;
+}
+.weber{
+    background-color: hsl(211, 68%, 94%) !important;
+}
+.weber-2{
+    background-color: hsl(215, 33%, 90%) !important;
+}
+a { color: hsl(228, 45%, 44%); }
+
+img:not(.img-side){
+    border-radius: 50%;
+}
+
+.bi{
+    color: hsl(1, 90%, 64%);
+    font-size: 12px !important;
+    margin-left: 8px;
+}
