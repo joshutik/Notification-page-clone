@@ -1,5 +1,7 @@
 body{
     background-color: hsl(210, 60%, 98%) !important;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
 }
 p:not(.tag){
     font-size: 16px !important;
@@ -23,6 +25,30 @@ a { color: hsl(228, 45%, 44%); }
 img:not(.img-side){
     border-radius: 50%;
 }
+
+
+.res{
+    width: 50% !important;
+}
+
+@media screen and (max-width:1440px){
+    .res{
+        width: 100% !important;
+    }
+    
+}
+
+@media screen and (max-width:430px){
+    .res{
+        width: 100% !important;
+    }
+    .weber-2{
+        border: 1px solid black;
+        background-color: hsl(0, 0%, 100%) !important;
+    }
+    
+}
+
 
 .bi{
     color: hsl(1, 90%, 64%);
